@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "arm-none-eabi-gcc",
+            "args": [
+                "arm-none-eabi-gcc",
+                "-mthumb",
+                "-nostdlib",
+                "-mcpu=cortex-m4",
+                "-Wall",
+                "-ggdb",
+                "-IDrivers/STM32F3xx_HAL_Driver/Inc",
+                "-IDrivers/CMSIS/Device/ST/STM32F3xx/Include",
+                "-IDrivers/CMSIS/Include",
+                "-IDrivers/BSP/STM32F3xx-Nucleo",
+                "-Isrc",
+                "-DSTM32F302x8",
+                "Drivers/BSP/STM32F3xx-Nucleo/stm32f3xx_nucleo.c",
+                "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c",
+                "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c",
+                "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c",
+                "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c",
+                "src/main.c",
+                "src/stm32f3xx_it.c",
+                "src/system_stm32f3xx.c",
+                "-o",
+                "lab1"
+            ],
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": ["relative", "${workspaceFolder}"],
+                "pattern": {
+                  "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                  "file": 1,
+                  "line": 2,
+                  "column": 3,
+                  "severity": 4,
+                  "message": 5
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "vscode_stm32_c_cpp_properties",
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "includePath": [
+                "${workspaceRoot}/Inc/",
+                "${workspaceRoot}/Drivers/CMSIS/Include/",
+                "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F3xx/Include/"
+            ],
+            "defines": [
+                "STM32F302xx"
+            ],
+            "cStandard": "c99",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,137 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "clean",
+            "group": "build",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "command": "rm -f *.o *.elf *.bin",
+            "windows": {
+                "command": "del *.o *.elf *.bin"
+            }
+        },
+        {
+            "label": "compile",
+            "group": "build",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "command": "arm-none-eabi-gcc",
+            "windows": {
+                "command": "arm-none-eabi-gcc.exe"
+            },
+            "args": [
+                "-nostdlib",
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                "-Wall",
+                "-ggdb",
+                "-I${workspaceRoot}/Drivers/STM32F3xx_HAL_Driver/Inc",
+                "-I${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F3xx/Include",
+                "-I${workspaceRoot}/Drivers/CMSIS/Include",
+                "-I${workspaceRoot}/Drivers/BSP/STM32F3xx-Nucleo",
+                "-I${workspaceRoot}/src",
+                "-DSTM32F302x8",
+                "-c",
+                "${workspaceRoot}/src/*.c",
+                "${workspaceRoot}/src/*.s",
+                "${workspaceRoot}/Drivers/BSP/STM32F3xx-Nucleo/stm32f3xx_nucleo.c",
+                "${workspaceRoot}/Drivers/STM32F3xx_HAL_Driver/Src/*.c",
+            ],
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "label": "link",
+            "group": "build",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "command": "arm-none-eabi-ld",
+            "windows": {
+                "command": "arm-none-eabi-ld.exe"
+            },
+            "args": [
+                "-Tstm32f30_flash.ld",
+                "-L/opt/gcc-arm-none-eabi-8-2019-q3-update/arm-none-eabi/lib/",
+                "-L/opt/gcc-arm-none-eabi-8-2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/",
+                //"--gc-sections",
+                //"--print-gc-sections",
+                "-nostdlib",
+                "-o",
+                "lab1.elf",
+                "*.o",
+            ],
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "label": "build",
+            "group": "build",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "clean",
+                "compile",
+                "link"
+            ],
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "command": "arm-none-eabi-objcopy",
+            "windows": {
+                "command": "arm-none-eabi-objcopy.exe"
+            },
+            "args": [
+                "-O",
+                "binary",
+                "lab1.elf",
+                "lab1.bin"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "flash",
+            "group": "none",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "command": "openocd -f interface/stlink-v2.cfg -f board/st_nucleo_f3.cfg -c \"init\" -c \"reset init\" -c \"flash write_image erase lab1.elf\" -c \"reset\" -c \"shutdown\"",
+            "problemMatcher": []
+        }
+    ]
+}
