@@ -67,16 +67,12 @@
             "options": {
                 "cwd": "${workspaceRoot}/build"
             },
-            "command": "arm-none-eabi-ld",
+            "command": "arm-none-eabi-gcc",
             "windows": {
-                "command": "arm-none-eabi-ld.exe"
+                "command": "arm-none-eabi-gcc.exe"
             },
             "args": [
                 "-Tstm32f30_flash.ld",
-                "-L/opt/gcc-arm-none-eabi-8-2019-q3-update/arm-none-eabi/lib/",
-                "-L/opt/gcc-arm-none-eabi-8-2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/",
-                //"--gc-sections",
-                //"--print-gc-sections",
                 "-nostdlib",
                 "-o",
                 "lab1.elf",
