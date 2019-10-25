@@ -37,7 +37,7 @@
                 "-I${workspaceRoot}/Drivers/CMSIS/Include",
                 "-I${workspaceRoot}/Drivers/BSP/STM32F3xx-Nucleo",
                 "-I${workspaceRoot}/src",
-                "-DSTM32F302x8",
+                "-D${input:mcu_model}",
                 "-c",
                 "${workspaceRoot}/src/*.c",
                 "${workspaceRoot}/src/*.s",
@@ -129,5 +129,16 @@
             "command": "openocd -f interface/stlink-v2.cfg -f board/st_nucleo_f3.cfg -c \"init\" -c \"reset init\" -c \"flash write_image erase lab1.elf\" -c \"reset\" -c \"shutdown\"",
             "problemMatcher": []
         }
-    ]
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "mcu_model",
+            "description": "What type chip do you use?",
+            "options": [
+              "STM32F302x8",
+            ],
+            "default": "STM32F302x8"
+          },
+      ]
 }
