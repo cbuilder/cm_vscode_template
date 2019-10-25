@@ -32,6 +32,7 @@
                 "-mcpu=cortex-m4",
                 "-Wall",
                 "-ggdb",
+                "-std=c99",
                 "-I${workspaceRoot}/Drivers/STM32F3xx_HAL_Driver/Inc",
                 "-I${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F3xx/Include",
                 "-I${workspaceRoot}/Drivers/CMSIS/Include",
@@ -66,6 +67,7 @@
             "type": "shell",
             "options": {
                 "cwd": "${workspaceRoot}/build"
+                
             },
             "command": "arm-none-eabi-gcc",
             "windows": {
