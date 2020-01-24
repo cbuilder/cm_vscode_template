@@ -1,4 +1,4 @@
-# stm32_vscode_template
+# cm_vscode_template
 
 Template project which provides ability to build, flash and debug your application directly in Visual Studio Code.
 
@@ -10,7 +10,7 @@ Template project which provides ability to build, flash and debug your applicati
 - debug (F5)
 
 ## Features ##
-- Should work on Windows as well as on Linux (maybe MAC)
+- Work tested on Windows as well as on Linux
 
 ## Dependency: ##
 - C/C++ extension (https://github.com/Microsoft/vscode-cpptools)
