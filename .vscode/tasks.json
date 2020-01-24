@@ -29,21 +29,22 @@
             "args": [
                 "-nostdlib",
                 "-mthumb",
-                "-mcpu=cortex-m4",
+                "-mcpu=cortex-m3",
                 "-Wall",
                 "-ggdb",
                 "-std=c99",
-                "-I${workspaceRoot}/lib/STM32F3xx_HAL_Driver/Inc",
-                "-I${workspaceRoot}/lib/CMSIS/Device/ST/STM32F3xx/Include",
-                "-I${workspaceRoot}/lib/CMSIS/Include",
-                "-I${workspaceRoot}/lib/BSP/STM32F3xx-Nucleo",
+                "-I${workspaceRoot}/lib/FX-RTOS",
+               // "-I${workspaceRoot}/lib/STM32F3xx_HAL_Driver/Inc",
+               // "-I${workspaceRoot}/lib/CMSIS/Device/ST/STM32F3xx/Include",
+               // "-I${workspaceRoot}/lib/CMSIS/Include",
+               // "-I${workspaceRoot}/lib/BSP/STM32F3xx-Nucleo",
                 "-I${workspaceRoot}/src",
                 "-D${input:target}",
                 "-c",
                 "${workspaceRoot}/src/*.c",
                 "${workspaceRoot}/src/*.s",
-                "${workspaceRoot}/lib/BSP/STM32F3xx-Nucleo/stm32f3xx_nucleo.c",
-                "${workspaceRoot}/lib/STM32F3xx_HAL_Driver/Src/*.c",
+               // "${workspaceRoot}/lib/BSP/STM32F3xx-Nucleo/stm32f3xx_nucleo.c",
+               // "${workspaceRoot}/lib/STM32F3xx_HAL_Driver/Src/*.c",
             ],
             "problemMatcher": {
                 "owner": "cpp",
@@ -74,11 +75,18 @@
                 "command": "arm-none-eabi-gcc.exe"
             },
             "args": [
-                "-Tstm32f30_flash.ld",
+                "-u _vectors",
+             //   "-Wl,-Map=map.txt",
+             //   "-Wl,--gc-sections",
+             //   "-Wl,--print-memory-usage",
+                "-nostartfiles",
+             //   "-ffreestanding",
+                "-TMDR32F9Qx.ld",
                 "-nostdlib",
                 "-o",
                 "lab1.elf",
                 "*.o",
+                "${workspaceRoot}/lib/FX-RTOS/libfxrtos.a",
             ],
             "problemMatcher": {
                 "owner": "cpp",
@@ -128,7 +136,7 @@
             "options": {
                 "cwd": "${workspaceRoot}/build"
             },
-            "command": "openocd -f interface/stlink-v2.cfg -f board/st_nucleo_f3.cfg -c \"init\" -c \"reset init\" -c \"flash write_image erase lab1.elf\" -c \"reset\" -c \"shutdown\"",
+            "command": "C:\\Users\\alekseev_d\\Downloads\\openocd-20200114\\OpenOCD-20200114-0.10.0\\bin\\openocd -f interface/stlink.cfg -f target/mdr32f9q2i.cfg -c \"init\" -c \"halt\" -c \"flash write_image erase lab1.elf\" -c \"reset\" -c \"shutdown\"",
             "problemMatcher": []
         }
     ],
@@ -139,8 +147,9 @@
             "description": "Select target:",
             "options": [
               "STM32F302x8",
+              "MDR32F9"
             ],
-            "default": "STM32F302x8"
+            "default": "MDR32F9"
           },
       ]
 }

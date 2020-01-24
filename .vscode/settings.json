@@ -1,4 +1,4 @@
 {
-    "cortex-debug.armToolchainPath": "/opt/gcc-arm-none-eabi-8-2019-q3-update/bin/",
-    "cortex-debug.openocdPath": "/usr/bin/openocd"
+    "cortex-debug.armToolchainPath": "",
+    "cortex-debug.openocdPath": "C:\\Users\\alekseev_d\\Downloads\\openocd-20200114\\OpenOCD-20200114-0.10.0\\bin\\openocd"
 }

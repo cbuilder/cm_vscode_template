@@ -1,0 +1,560 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+                              main.o (fx_thread_init_ex)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o) (fx_thread_self)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o) (fx_thread_wait_object_internal)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_context.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o) (hal_context_ker_create)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_intr_frame.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_context.o) (hal_intr_frame_modify)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_async.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o) (hal_async_raise_spl)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_clock.o)
+                              startup.o (hal_tick_entry)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_intr.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_clock.o) (hal_intr_frame_save)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_2.o)
+                              main.o (fx_kernel_entry)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hw_cpu.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_context.o) (hw_cpu_switch_psp)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o) (fx_timer_internal_init)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_dbg.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o) (fx_panic_internal)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o) (fx_event_test_and_wait)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o) (fx_sched_item_init)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched_alg.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o) (fx_sched_params_init)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sync.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o) (fx_sync_waitable_init)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sys_timer.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o) (fx_sys_timers_tick)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_apc.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o) (fx_thread_apc_insert_internal)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_1.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_2.o) (fx_kernel_entry_internal)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(rtl_queue.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched_alg.o) (rtl_enqueue)
+C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(ctors.o)
+                              C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_1.o) (fx_dj_init_once)
+
+Allocating common symbols
+Common symbol       size              file
+
+global_domain       0x114             C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+hal_intr_stack      0x400             C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_1.o)
+fx_thread_apc_on_receive
+                    0x4               C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_apc.o)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 startup.o
+ .bss           0x00000000        0x0 startup.o
+ .vectors       0x00000000       0xc4 startup.o
+ .bss           0x00000000        0x0 system_MDR32F9Qx.o
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .text.fx_thread_deinit
+                0x00000000       0x10 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .text.fx_thread_terminate
+                0x00000000       0x58 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .text.fx_thread_exit_sync
+                0x00000000       0x10 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .text.fx_thread_exit
+                0x00000000       0x28 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .text.fx_thread_set_params
+                0x00000000       0x8c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .text.fx_thread_get_params
+                0x00000000       0x4c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .text.fx_thread_join
+                0x00000000       0x18 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .text.fx_thread_delay_until
+                0x00000000       0x4c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .text.fx_thread_yield
+                0x00000000       0x20 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .text.fx_thread_send_apc
+                0x00000000        0x4 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+ .text.fx_thread_term_handler
+                0x00000000       0x20 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+ .text.fx_dispatch_handler
+                0x00000000       0xcc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+ .text.fx_trap_handler
+                0x00000000       0x14 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o)
+ .text.fx_thread_timedwait_object
+                0x00000000       0xb0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o)
+ .text.fx_thread_wait_object
+                0x00000000       0x1c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o)
+ .text.fx_thread_wait_event
+                0x00000000        0x8 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o)
+ .text.fx_thread_timedwait_event
+                0x00000000        0x8 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_context.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_context.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_context.o)
+ .text.hal_context_switch
+                0x00000000       0x10 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_context.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_intr_frame.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_intr_frame.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_intr_frame.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_async.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_async.o)
+ .text          0x00000000       0x10 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_clock.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_clock.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_clock.o)
+ .ARM.attributes
+                0x00000000       0x21 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_clock.o)
+ .text          0x00000000       0x50 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_intr.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_intr.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_intr.o)
+ .ARM.attributes
+                0x00000000       0x21 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_intr.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_2.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_2.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hw_cpu.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hw_cpu.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+ .text.fx_timer_get_tick_count
+                0x00000000        0xc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+ .text.fx_timer_set_tick_count
+                0x00000000        0xc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+ .text.fx_timer_internal_container_tick
+                0x00000000       0x5c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+ .text.fx_tick_handler
+                0x00000000       0x5c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_dbg.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_dbg.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_dbg.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+ .text.fx_event_init
+                0x00000000       0x20 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+ .text.fx_event_deinit
+                0x00000000       0x20 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+ .text.fx_event_set
+                0x00000000        0xc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+ .text.fx_event_reset
+                0x00000000       0x18 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+ .text.fx_event_pulse
+                0x00000000       0x24 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+ .text.fx_event_get_state
+                0x00000000        0x8 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+ .bss           0x00000000       0x10 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+ .text.fx_sched_mark_resched_needed
+                0x00000000       0x18 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+ .text.fx_sched_item_remove
+                0x00000000       0x40 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+ .text.fx_sched_item_set_params
+                0x00000000       0x74 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+ .text.fx_sched_get_next
+                0x00000000       0x20 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched_alg.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched_alg.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched_alg.o)
+ .text.fx_sched_container_get
+                0x00000000       0x28 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched_alg.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sync.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sync.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sync.o)
+ .text._fx_sync_wait_block_get
+                0x00000000       0x38 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sync.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sys_timer.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sys_timer.o)
+ .text.fx_sys_timers_tick
+                0x00000000       0x5c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sys_timer.o)
+ .text.fx_sys_timer_set_absolute
+                0x00000000       0x20 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sys_timer.o)
+ .text.fx_sys_timer_cancel
+                0x00000000       0x28 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sys_timer.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_apc.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_apc.o)
+ .bss           0x00000000        0x8 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_apc.o)
+ .text.fx_thread_apc_insert_internal
+                0x00000000       0x2c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_apc.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_1.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_1.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_1.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(rtl_queue.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(rtl_queue.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(rtl_queue.o)
+ .text.rtl_queue_insert
+                0x00000000       0x10 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(rtl_queue.o)
+ .text.rtl_queue_copy
+                0x00000000       0x14 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(rtl_queue.o)
+ .text          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(ctors.o)
+ .data          0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(ctors.o)
+ .bss           0x00000000        0x0 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(ctors.o)
+ .text.fx_dj_init_each
+                0x00000000       0x14 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(ctors.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00020000         xr
+SRAM             0x20000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD main.o
+LOAD startup.o
+LOAD system_MDR32F9Qx.o
+LOAD C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a
+
+.text           0x08000000      0xe18
+ *(.vectors*)
+ *(.text*)
+ .text          0x08000000      0x1c8 main.o
+                0x08000054                fx_intr_handler
+                0x080000b4                fx_app_init
+                0x08000140                system_stop
+                0x08000146                main
+ .text          0x080001c8       0x44 startup.o
+                0x080001c8                RESET_Handler
+ .text          0x0800020c      0x108 system_MDR32F9Qx.o
+                0x0800020c                SystemCoreClockUpdate
+                0x080002c8                SystemInit
+ .text.fx_thread_init_ex
+                0x08000314       0x9c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+                0x08000314                fx_thread_init_ex
+ .text.fx_thread_suspend
+                0x080003b0       0x28 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+                0x080003b0                fx_thread_suspend
+ .text.fx_thread_resume
+                0x080003d8       0x38 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+                0x080003d8                fx_thread_resume
+ .text.fx_thread_sleep
+                0x08000410       0x40 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+                0x08000410                fx_thread_sleep
+ .text.fx_thread_apc_on_receive_handler
+                0x08000450       0x18 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+ .text.fx_thread_quanta_expired
+                0x08000468       0x24 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+ .text.fx_thread_self
+                0x0800048c        0xc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+                0x0800048c                fx_thread_self
+ .text.fx_thread_ctor
+                0x08000498       0x44 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+                0x08000498                fx_thread_ctor
+ .text.fx_sync_waiter_notify
+                0x080004dc       0x14 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o)
+                0x080004dc                fx_sync_waiter_notify
+ .text.fx_thread_wait_object_internal
+                0x080004f0       0xcc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o)
+                0x080004f0                fx_thread_wait_object_internal
+ .text.hal_context_ker_create
+                0x080005bc       0x28 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_context.o)
+                0x080005bc                hal_context_ker_create
+ .text.hal_intr_frame_modify
+                0x080005e4       0x14 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_intr_frame.o)
+                0x080005e4                hal_intr_frame_modify
+ .text.hal_intr_frame_alloc
+                0x080005f8       0x30 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_intr_frame.o)
+                0x080005f8                hal_intr_frame_alloc
+ .text          0x08000628       0x18 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_async.o)
+                0x08000628                hal_async_raise_spl
+                0x08000630                hal_async_lower_spl
+                0x08000638                hal_async_get_current_spl
+ .text          0x08000640       0x2c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_2.o)
+                0x08000640                fx_kernel_entry
+ .text          0x0800066c      0x104 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hw_cpu.o)
+                0x0800066c                hw_cpu_sev
+                0x08000674                hw_cpu_dmb
+                0x0800067c                hw_cpu_get_ipsr
+                0x08000684                hw_cpu_intr_disable
+                0x08000688                hw_cpu_get_control
+                0x08000690                hw_cpu_set_control
+                0x0800069c                hw_cpu_intr_enable
+                0x080006a0                hw_cpu_get_basepri
+                0x080006a8                hw_cpu_set_basepri
+                0x080006b0                hw_cpu_set_psp
+                0x080006bc                hw_cpu_get_psp
+                0x080006c4                hw_cpu_get_msp
+                0x080006cc                hw_cpu_switch_psp
+                0x080006e0                hw_cpu_idle
+                0x080006e4                hw_cpu_clz
+                0x080006ec                hw_cpu_ctz
+                0x080006f8                hw_cpu_shutdown
+                0x080006fc                hw_cpu_atomic_swap
+                0x0800071c                hw_cpu_atomic_add
+                0x08000740                hw_cpu_atomic_cas
+ .text.fx_timer_internal_init
+                0x08000770        0xc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+                0x08000770                fx_timer_internal_init
+ .text.fx_timer_internal_cancel
+                0x0800077c       0x44 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+                0x0800077c                fx_timer_internal_cancel
+ .text.fx_timer_internal_container_init
+                0x080007c0       0x48 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+                0x080007c0                fx_timer_internal_container_init
+ .text.fx_app_timer_ctor
+                0x08000808       0x58 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+                0x08000808                fx_app_timer_ctor
+ .text.fx_timer_internal_container_put
+                0x08000860       0x5c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+                0x08000860                fx_timer_internal_container_put
+ .text._fx_timer_internal_insert
+                0x080008bc       0x2c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+ .text.fx_timer_internal_set_abs
+                0x080008e8       0x50 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+                0x080008e8                fx_timer_internal_set_abs
+ .text.fx_timer_internal_set_rel
+                0x08000938       0x10 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+                0x08000938                fx_timer_internal_set_rel
+ .text.fx_timer_internal_container_get
+                0x08000948       0x68 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+                0x08000948                fx_timer_internal_container_get
+ .text.fx_timer_internal_worker_thread
+                0x080009b0       0xdc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+ .text.fx_panic_internal
+                0x08000a8c        0xc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_dbg.o)
+                0x08000a8c                fx_panic_internal
+ .text.fx_event_test_and_wait
+                0x08000a98       0x14 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+                0x08000a98                fx_event_test_and_wait
+ .text.fx_event_internal_init
+                0x08000aac       0x20 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+                0x08000aac                fx_event_internal_init
+ .text.fx_event_internal_set
+                0x08000acc       0x24 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+                0x08000acc                fx_event_internal_set
+ .text.fx_event_internal_reset
+                0x08000af0       0x18 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+                0x08000af0                fx_event_internal_reset
+ .text.fx_sched_ctor
+                0x08000b08        0xc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+                0x08000b08                fx_sched_ctor
+ .text.fx_sched_item_init
+                0x08000b14       0x20 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+                0x08000b14                fx_sched_item_init
+ .text.fx_sched_item_suspend
+                0x08000b34       0x3c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+                0x08000b34                fx_sched_item_suspend
+ .text.fx_sched_item_resume
+                0x08000b70       0x4c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+                0x08000b70                fx_sched_item_resume
+ .text.fx_sched_yield
+                0x08000bbc       0x40 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+                0x08000bbc                fx_sched_yield
+ .text.fx_sched_params_init
+                0x08000bfc       0x20 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched_alg.o)
+                0x08000bfc                fx_sched_params_init
+ .text.fx_sched_container_init
+                0x08000c1c       0x10 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched_alg.o)
+                0x08000c1c                fx_sched_container_init
+ .text.fx_sched_container_add
+                0x08000c2c       0x3c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched_alg.o)
+                0x08000c2c                fx_sched_container_add
+ .text.fx_sched_container_remove
+                0x08000c68       0x4c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched_alg.o)
+                0x08000c68                fx_sched_container_remove
+ .text.fx_sync_waitable_init
+                0x08000cb4        0x8 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sync.o)
+                0x08000cb4                fx_sync_waitable_init
+ .text._fx_sync_wait_start
+                0x08000cbc        0x8 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sync.o)
+                0x08000cbc                _fx_sync_wait_start
+ .text._fx_sync_wait_notify
+                0x08000cc4       0x40 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sync.o)
+                0x08000cc4                _fx_sync_wait_notify
+ .text.fx_sync_wait_rollback
+                0x08000d04       0x44 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sync.o)
+                0x08000d04                fx_sync_wait_rollback
+ .text.fx_sys_timer_ctor
+                0x08000d48       0x10 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sys_timer.o)
+                0x08000d48                fx_sys_timer_ctor
+ .text.fx_sys_timer_init
+                0x08000d58        0xc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sys_timer.o)
+                0x08000d58                fx_sys_timer_init
+ .text.fx_kernel_entry_internal
+                0x08000d64       0x18 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_1.o)
+                0x08000d64                fx_kernel_entry_internal
+ .text.rtl_enqueue
+                0x08000d7c        0xc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(rtl_queue.o)
+                0x08000d7c                rtl_enqueue
+ .text.rtl_dequeue
+                0x08000d88       0x1c C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(rtl_queue.o)
+                0x08000d88                rtl_dequeue
+ .text.rtl_queue_remove
+                0x08000da4       0x14 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(rtl_queue.o)
+                0x08000da4                rtl_queue_remove
+ .text.fx_dj_init_once
+                0x08000db8       0x18 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(ctors.o)
+                0x08000db8                fx_dj_init_once
+ *(.rodata*)
+ .rodata        0x08000dd0       0x22 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+ *fill*         0x08000df2        0x2 
+ .rodata.str1.4
+                0x08000df4       0x24 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+                                 0x21 (size before relaxing)
+                0x08000e18                _etext = .
+
+.glue_7         0x08000e18        0x0
+ .glue_7        0x08000e18        0x0 linker stubs
+
+.glue_7t        0x08000e18        0x0
+ .glue_7t       0x08000e18        0x0 linker stubs
+
+.vfp11_veneer   0x08000e18        0x0
+ .vfp11_veneer  0x08000e18        0x0 linker stubs
+
+.v4_bx          0x08000e18        0x0
+ .v4_bx         0x08000e18        0x0 linker stubs
+
+.iplt           0x08000e18        0x0
+ .iplt          0x08000e18        0x0 main.o
+
+.rel.dyn        0x08000e18        0x0
+ .rel.iplt      0x08000e18        0x0 main.o
+
+.data           0x20000000        0x4 load address 0x08000e18
+                0x20000000                _data = .
+ *(.data*)
+ .data          0x20000000        0x4 system_MDR32F9Qx.o
+                0x20000000                SystemCoreClock
+                0x20000004                _edata = .
+
+.igot.plt       0x20000004        0x0 load address 0x08000e1c
+ .igot.plt      0x20000004        0x0 main.o
+
+.bss            0x20000008     0x13d0 load address 0x08000e20
+                0x20000008                _bss = .
+ *(.bss*)
+ .bss           0x20000008      0x780 main.o
+ .bss           0x20000788       0x94 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+ .bss           0x2000081c      0x694 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+ .bss           0x20000eb0        0xc C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sys_timer.o)
+ *(COMMON)
+ COMMON         0x20000ebc      0x114 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+                0x20000ebc                global_domain
+ COMMON         0x20000fd0        0x4 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_apc.o)
+                0x20000fd0                fx_thread_apc_on_receive
+ *fill*         0x20000fd4        0x4 
+ COMMON         0x20000fd8      0x400 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_1.o)
+                0x20000fd8                hal_intr_stack
+                0x200013d8                _ebss = .
+
+.cr_heap        0x200013d8        0x0
+                0x200013d8                end = .
+                0x200013d8                _pvHeapStart = .
+                0x00000004                _data_sz = (_edata - _data)
+                0x000013d0                _bss_sz = (_ebss - _bss)
+OUTPUT(lab1.elf elf32-littlearm)
+
+.debug_info     0x00000000      0xe86
+ .debug_info    0x00000000      0xcb4 main.o
+ .debug_info    0x00000cb4       0x26 startup.o
+ .debug_info    0x00000cda      0x1ac system_MDR32F9Qx.o
+
+.debug_abbrev   0x00000000      0x353
+ .debug_abbrev  0x00000000      0x27b main.o
+ .debug_abbrev  0x0000027b       0x14 startup.o
+ .debug_abbrev  0x0000028f       0xc4 system_MDR32F9Qx.o
+
+.debug_aranges  0x00000000       0x60
+ .debug_aranges
+                0x00000000       0x20 main.o
+ .debug_aranges
+                0x00000020       0x20 startup.o
+ .debug_aranges
+                0x00000040       0x20 system_MDR32F9Qx.o
+
+.debug_line     0x00000000      0x3e8
+ .debug_line    0x00000000      0x1ed main.o
+ .debug_line    0x000001ed       0x86 startup.o
+ .debug_line    0x00000273      0x175 system_MDR32F9Qx.o
+
+.debug_str      0x00000000      0x99b
+ .debug_str     0x00000000      0x8c7 main.o
+                                0xa35 (size before relaxing)
+ .debug_str     0x000008c7       0x46 startup.o
+                                 0x76 (size before relaxing)
+ .debug_str     0x0000090d       0x8e system_MDR32F9Qx.o
+                                0x26d (size before relaxing)
+
+.comment        0x00000000       0x7f
+ .comment       0x00000000       0x7f main.o
+                                 0x80 (size before relaxing)
+ .comment       0x0000007f       0x80 system_MDR32F9Qx.o
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_context.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_intr_frame.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_dbg.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched_alg.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sync.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sys_timer.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_apc.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_1.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(rtl_queue.o)
+ .comment       0x0000007f       0x80 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(ctors.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 main.o
+ .ARM.attributes
+                0x00000033       0x21 startup.o
+ .ARM.attributes
+                0x00000054       0x33 system_MDR32F9Qx.o
+ .ARM.attributes
+                0x00000087       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_api.o)
+ .ARM.attributes
+                0x000000ba       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_sys.o)
+ .ARM.attributes
+                0x000000ed       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_wait.o)
+ .ARM.attributes
+                0x00000120       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_cpu_context.o)
+ .ARM.attributes
+                0x00000153       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_intr_frame.o)
+ .ARM.attributes
+                0x00000186       0x21 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_async.o)
+ .ARM.attributes
+                0x000001a7       0x21 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_2.o)
+ .ARM.attributes
+                0x000001c8       0x21 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hw_cpu.o)
+ .ARM.attributes
+                0x000001e9       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_app_timer.o)
+ .ARM.attributes
+                0x0000021c       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_dbg.o)
+ .ARM.attributes
+                0x0000024f       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_event.o)
+ .ARM.attributes
+                0x00000282       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched.o)
+ .ARM.attributes
+                0x000002b5       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sched_alg.o)
+ .ARM.attributes
+                0x000002e8       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sync.o)
+ .ARM.attributes
+                0x0000031b       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_sys_timer.o)
+ .ARM.attributes
+                0x0000034e       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(fx_thread_apc.o)
+ .ARM.attributes
+                0x00000381       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(hal_init_1.o)
+ .ARM.attributes
+                0x000003b4       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(rtl_queue.o)
+ .ARM.attributes
+                0x000003e7       0x33 C:\Projects\usb_device\cm_vscode_template/lib/FX-RTOS/libfxrtos.a(ctors.o)
+
+.debug_frame    0x00000000      0x164
+ .debug_frame   0x00000000      0x110 main.o
+ .debug_frame   0x00000110       0x54 system_MDR32F9Qx.o
