@@ -20,7 +20,7 @@ static void thread_1(void* arg)
   while(1)
   {
     MDR_PORTC->RXTX |= 1<<2;
-    fx_thread_sleep(40);
+    fx_thread_sleep(20);
     MDR_PORTC->RXTX &= ~(1<<2);
     fx_thread_sleep(20);
   }
